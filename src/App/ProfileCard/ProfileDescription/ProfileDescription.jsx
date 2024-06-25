@@ -1,3 +1,4 @@
+import "./ProfileDescription.css";
 import ProfileSkillList from "./ProfileSkillList/ProfileSkillList";
 import ProfileText from "./ProfileText/ProfileText";
 import ProfileTitle from "./ProfileTitle/ProfileTitle";

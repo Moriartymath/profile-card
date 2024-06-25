@@ -5,7 +5,7 @@ import ProfileImage from "./ProfileImage/ProfileImage";
 function ProfileCard() {
   const profileImage = "logo512.png";
   const profileTitle = "Illia Strelia";
-  const profileText = "Full-stack web developep";
+  const profileText = "Full-stack web developer";
   const profileSkills = [
     ["JavaScript", "yellow"],
     ["TypeScript", "green"],

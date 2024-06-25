@@ -1,3 +1,4 @@
+import "./ProfileSkillList.css";
 import { useEffect, useState } from "react";
 import ProfileSkill from "./ProfileSkill/ProfileSkill";
 

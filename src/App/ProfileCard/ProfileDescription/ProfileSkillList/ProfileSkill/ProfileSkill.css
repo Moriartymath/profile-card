@@ -1,6 +1,5 @@
 .skill--item {
-  width: fit-content;
-  padding: 0.5em;
+  padding: 0em 0.5em 0em 0.5em;
   border: 1px solid black;
-  border-radius: 2em;
+  border-radius: 1em;
 }
