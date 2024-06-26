@@ -6,8 +6,8 @@ function ProfileSkillList({ profileSkills }) {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
     setSkills(() =>
-      profileSkills.map(([skill, color], index) => (
-        <ProfileSkill skill={skill} color={color} key={index} />
+      profileSkills.map(({ skill, level, color }, index) => (
+        <ProfileSkill skill={skill} color={color} level={level} key={index} />
       ))
     );
   }, [profileSkills]);

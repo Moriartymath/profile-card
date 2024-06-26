@@ -1,6 +1,6 @@
 import "./ProfileTitle.css";
 function ProfileTitle({ profileTitle }) {
-  return <h2 className="profile_title">{profileTitle}</h2>;
+  return <h1 className="profile_title">{profileTitle}</h1>;
 }
 
 export default ProfileTitle;

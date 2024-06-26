@@ -5,14 +5,15 @@ import ProfileImage from "./ProfileImage/ProfileImage";
 function ProfileCard() {
   const profileImage = "logo512.png";
   const profileTitle = "Illia Strelia";
-  const profileText = "Full-stack web developer";
+  const profileText =
+    "Full-stack web developer, with 6 month of non-comercial experience and plenty of personal projects";
   const profileSkills = [
-    ["JavaScript", "yellow"],
-    ["TypeScript", "green"],
-    ["React", "blue"],
-    ["HTML/HTML5", "redish"],
-    ["CSS/CSS3", "lightblue"],
-    ["WEB development", "red"],
+    { skill: "JavaScript", level: "advanced", color: "yellow" },
+    { skill: "TypeScript", level: "advanced", color: "green" },
+    { skill: "React", level: "beginner", color: "blue" },
+    { skill: "HTML/HTML5", level: "advanced", color: "lightgreen" },
+    { skill: "CSS/CSS3", level: "advanced", color: "lightblue" },
+    { skill: "WEB development", level: "intermediate", color: "red" },
   ];
   return (
     <div className="profile_card">
